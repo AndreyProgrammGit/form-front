@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5433,
+            "driver": "MySQL",
+            "name": "form-construct",
+            "database": "postgres",
+            "username": "root"
+        }
+    ]
+}

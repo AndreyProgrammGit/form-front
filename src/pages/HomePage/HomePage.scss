@@ -1,0 +1,31 @@
+.home__wrapper {
+  width: 100%;
+
+  .home__container {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+
+    h1 {
+      margin-top: 15px;
+      font-size: 35px;
+      font-family: "Courier New", Courier, monospace;
+      font-style: italic;
+    }
+    b {
+      color: rgb(128, 128, 128);
+    }
+  }
+}
+
+.home__button-group {
+  display: flex;
+  flex-direction: column;
+
+  button:last-child {
+    margin-top: 15px;
+  }
+}

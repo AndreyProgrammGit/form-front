@@ -1,0 +1,88 @@
+.constructor__wrapper {
+  width: 100%;
+
+  .constructor__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #b45f25;
+    margin-top: 35px;
+
+    .checkbox-field {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .button-field {
+      img {
+        display: inline-block;
+      }
+    }
+
+    .checbox-filed__button {
+      display: flex;
+      flex-direction: column;
+      margin-top: 15px;
+
+      & > * {
+        margin-top: 5px;
+        width: 250px;
+      }
+    }
+
+    .MuiButton-contained {
+      background-color: #b45f25 !important;
+      color: #ffffff !important;
+      border: none !important;
+    }
+
+    .MuiFormLabel-colorPrimary {
+      color: #b45f25;
+    }
+
+    input {
+      color: #b45f25;
+    }
+
+    form {
+      min-width: 550px;
+      padding: 15px;
+      border: 1px solid #ffd18b;
+      border-radius: 35px;
+      background-color: #ffebcd;
+      box-shadow: 2px 2px 2px 2px #ffd18b;
+    }
+
+    form > * {
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-top: 15px;
+
+      &:last-child {
+        text-align: right;
+      }
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.Mui-focused fieldset {
+  border-color: #b45f25 !important;
+}
+
+.MuiSelect-select {
+  color: #b45f25 !important;
+}
+
+.MuiPaper-root {
+  border-radius: 20px;
+}
+
+.MuiMenu-list {
+  background-color: #b45f25;
+  color: #ffd18b;
+}

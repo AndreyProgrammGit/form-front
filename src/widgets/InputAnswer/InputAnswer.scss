@@ -1,0 +1,26 @@
+input {
+  border: 1px solid #d09b7c !important;
+  color: #b45f25 !important;
+  //   background-color: #ffffff !important;
+
+  &:focus {
+    border-color: #c86e2a;
+    outline: none;
+  }
+
+  &:hover {
+    border-color: #b45f25;
+  }
+}
+
+.MuiFormControl-root {
+  width: 100% !important;
+}
+
+.Mui-focused {
+  color: #c86e2a !important;
+}
+
+.css-1pht7va-MuiInputBase-root-MuiFilledInput-root::after {
+  border-bottom: 2px solid #c86e2a !important;
+}
